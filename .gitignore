@@ -1,0 +1,69 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Archivos de paquete
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Configuración de herramientas
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ipynb_checkpoints/
+
+# =========================================================
+# Jupyter Notebooks
+# =========================================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Salida generada por notebooks
+**/.ipynb_checkpoints/
+**/figures/
+**/outputs/
+
+# Parámetros de ejecución
+.env
+*.env
+
+# =========================================================
+# macOS
+# =========================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos temporales de Spotlight / Finder
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================================================
+# Otros comunes
+# =========================================================
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.orig
